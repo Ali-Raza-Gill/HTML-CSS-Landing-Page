@@ -9,14 +9,15 @@
 
 header{
     display: flex;
-    padding: 20px;
+    padding: 4px;
     background-color:#fff;
-    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    box-shadow: 0 0 10px rgba(0,0,0, 0.2);
     align-items: center;
     width: 100%;
 }
 .logo img{
-    max-width: 25%;
+    max-width: 30%;
+
 
 }
 .navbar ul li:last-child{
@@ -34,7 +35,7 @@ header{
 }
 .navbar ul li a{
 text-decoration: none;
-color: rgb(18, 3, 3);
+color: #808080;
 font-size: 1.1rem;
 font-weight: bold;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri;
@@ -43,7 +44,7 @@ transition: all ease 0.3s;
 }
 .navbar ul li a:hover{
     color: #ffa500;
-    font-size: 1.2rem; 
+    /* font-size: 1.2rem;  */
     text-shadow: 0px 1px 2px #ffa500;
 }
 
@@ -80,7 +81,7 @@ transition: all ease 0.3s;
 }
 .hero-content p{
     font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     
 }
 .hero-btn{
@@ -88,7 +89,7 @@ transition: all ease 0.3s;
     text-decoration: none;
     background-color: #ffa500;
     color: #fff;
-    padding: 15px 25px 15px 25px;
+    padding:15px 25px 15px 25px;
     border-radius: 50px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -103,7 +104,7 @@ transition: all ease 0.3s;
 
 
 .destination{
-    margin: 80px 40px;
+    margin: 90px 40px 30px 40px;
     text-align: center;
 }
 .destination h2{
@@ -152,6 +153,7 @@ transition: all ease 0.3s;
 /* About section starts here  */
 
 .about{
+    margin: 0px 0px 0px 0px;
     text-align: center;
     padding: 80px;
 }
@@ -161,6 +163,9 @@ transition: all ease 0.3s;
     margin-bottom: 30px;
     
 }
+.about-team{
+    margin: 100px 0px;
+}
 .about p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
@@ -169,15 +174,81 @@ transition: all ease 0.3s;
 .team-member{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 12%;
     
 }
 .team-member img {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    margin: 20px;
+    margin: 25px;
 }
 .team-mem h4{
     margin-bottom: 15px;
     font-size: 1.3rem;
 }
+
+/* Footer section  */
+.footer{
+    box-shadow: 0 0 10px rgba(0,0,0, 0.2);
+    margin-bottom: 5px;
+    padding: 30px 40px 10px 40px;
+
+}
+.footer-icon{
+    text-decoration: none;
+    display: flex;
+    gap: 50px;
+    margin-left: 400px;
+    height: 50px;
+    font-size: larger;
+    
+}
+
+.footer-text{
+    display: flex;
+    gap: 150px;
+    margin-top: 40px;
+    
+}
+.footer-c1 p{
+    padding-top: 15px;
+}
+
+.footer-c2 p{
+    padding-top: 15px;
+}
+
+.footer-c3 p{
+    padding-top: 15px;
+}
+.footer-c3 p a{
+    text-decoration: none;
+    }
+.footer-c4 p{
+    padding-top: 15px;
+}
+.footer-c4 p a{
+    text-decoration: none;
+    
+   }
+.footer-txt{
+    
+    background: #e5e2e2;
+    text-align: center;
+    height: 70px;
+    
+}
+.footer-txt h5{
+   
+   margin-top: 40px;
+   padding-top: 22px;
+   font-size:medium ;
+}
+
+
+
+
+
+
+

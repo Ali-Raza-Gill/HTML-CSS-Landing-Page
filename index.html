@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
@@ -12,15 +13,15 @@
     <header>
         <header>
             <div class="logo">
-                <a href="#"><img src="./website-logo.png" alt=""></a>
+                <a href="#"><img src="./images/website-logo.png" alt=""></a>
             </div>
             <nav class="navbar">
                 <ul>
-                    <li class="active"><a href="#" >Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Destination</a></li>
-                    <li><a href="#">Hotels</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="active"><a href="#home" >Home</a></li>
+                    <li><a href="#desti">Destination</a></li>
+                    <li><a href="#hotel">Hotels</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
 
             </nav>
@@ -29,31 +30,31 @@
     <main>
         <section class="hero">
             <div class="hero-img">
-                <img src="./ocean2.jpg" alt="">
+                <img src="./images/ocean2.jpg" alt="">
             </div>
             <div class="hero-content">
-                <h1>Welcome to our Travel Website</h1>
+                <h1>Welcome to our <span style="color: #ffa500;font-size: 60px;">Travel </span>Website</h1>
                 <p>Discover amazing destinations and book your next trip with us.</p>
                 <a href="#" class="hero-btn">Book Now</a>
             </div>
         </section>
 
         <!-- Destination Section  -->
-        <section class="destination">
+        <section class="destination" id="desti">
             <h2>Popular Destinations</h2>
             <div class="destination-grid">
                 <div class="destination-item">
-                    <img src="./new york.jpg" alt="">
+                    <img src="./images/new york.jpg" alt="">
                     <h3>New York City</h3>
                     <p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that's among the world's major commercial, financial and cultural centers.</p>
                 </div>
                 <div class="destination-item">
-                    <img src="./paris.jpg" alt="">
+                    <img src="./images/paris.jpg" alt="">
                     <h3>Paris</h3>
                     <p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. </p>
                 </div>
                 <div class="destination-item">
-                    <img src="./tokyo.jpg" alt="">
+                    <img src="./images/tokyo.jpg" alt="">
                     <h3>Tokyo</h3>
                     <p>Tokyo, Japan's busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. </p>
                 </div>
@@ -61,21 +62,21 @@
         </section>
 
         <!-- Featured Section -->
-        <section class="destination">
+        <section class="destination" id="hotel">
             <h2>Featured Section</h2>
             <div class="destination-grid">
                 <div class="destination-item">
-                    <img src="./The Ritz Carlton featured-section.jpg" alt="">
+                    <img src="./images/The Ritz Carlton featured-section.jpg" alt="">
                     <h3>The Ritz Carlton</h3>
                     <p>Experience luxury accommodations and impeccable service at the Ritz Carlton, located in the heart of the city.</p>
                 </div>
                 <div class="destination-item">
-                    <img src="./The Four Seasons.jpg" alt="">
+                    <img src="./images/The Four Seasons.jpg" alt="">
                     <h3>The Four Seasons</h3>
                     <p>Relax in style at The Four Seasons, featuring breathtaking views, an award-winnig spa, and gourmet dining options.</p>
                 </div>
                 <div class="destination-item">
-                    <img src="./The Waldorf Astoria.jpg" alt="">
+                    <img src="./images/The Waldorf Astoria.jpg" alt="">
                     <h3> The Waldorf Astoria</h3>
                     <p>Indulge in luxury at The Waldorf Astoria, a historic landmark hotel renowred for its elegance and sophistication.</p>
                 </div>
@@ -88,17 +89,17 @@
             <h2>Featured Activities</h2>
             <div class="destination-grid">
                 <div class="destination-item">
-                    <img src="./Swimming Featured-section.jpg" alt="">
+                    <img src="./images/Swimming Featured-section.jpg" alt="">
                     <h3>Swimming</h3>
                     <p>Experience luxury accommodations and impeccable service at the Ritz Carlton, located in the heart of the city.</p>
                 </div>
                 <div class="destination-item">
-                    <img src="./climbing featured-activitiy.jpg" alt="">
+                    <img src="./images/climbing featured-activitiy.jpg" alt="">
                     <h3>Climbing</h3>
                     <p>Relax in style at The Four Seasons, featuring breathtaking views, an award-winnig spa, and gourmet dining options.</p>
                 </div>
                 <div class="destination-item">
-                    <img src="./palm featured-activites.jpg" alt="">
+                    <img src="./images/palm featured-activites.jpg" alt="">
                     <h3> Palm Tree</h3>
                     <p>Indulge in luxury at The Waldorf Astoria, a historic landmark hotel renowred for its elegance and sophistication.</p>
                 </div>
@@ -106,7 +107,7 @@
         </section>
 
         <!-- About Us -->
-        <section class="about">
+        <section class="about" id="about">
             
             <h3>About Us</h3>
             <p>
@@ -114,20 +115,20 @@
                 
                     
                 
+                <h3 class="about-team">Meet Our Team</h3>
                 <div class="team-member">
-                    <h3>Meet Our Team</h3>
                     <div class="team-mem">
-                        <img src="./jhon smith.jpg" alt="">
+                        <img src="./images/jhon smith.jpg" alt="#" >
                         <h4>Jhon Smith</h4>
                         <p >Founder & CEO</p>
                     </div>
                     <div class="team-mem">
-                        <img src="./feridy about.jpg" alt="">
+                        <img src="./images/feridy about.jpg" alt="">
                         <h4>Feridy</h4>
                         <p >Head of Operations</p>
                     </div>
                     <div class="team-mem">
-                        <img src="./raza about.jpg" alt="">
+                        <img src="./images/raza about.jpg" alt="">
                         <h4>Raza</h4>
                         <p >Markitting Director</p>
                     </div>
@@ -135,6 +136,54 @@
             
         </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer-icon">
+            <h3>Get connected with us through: </h3>            
+            <a id="icon1" href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter "></i></a>
+            <a href=""><i class="fab fa-google"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <hr>
+        <div class="footer-text" id="contact">
+            <div class="footer-c1">
+                <h3>Company Name</h3>
+                <p>These are all our colleborative <strong>ideas</strong>,and destinations, connect with us to <br> get more updates.</p>
+                <p>Our services avilable all over the Pakistan and we cover all the <strong>routes</strong> to <br>words the joy.</p>
+            </div>
+            <div class="footer-c2">
+                <h3>Destinations</h3>
+                <p>Muree</p>
+                <p>Naran</p>
+                <p>Kashmir</p>
+                <p>Kaghan</p>
+            </div>
+            <div class="footer-c3">
+                <h3>Pricing</h3>
+                <p><a href="#">3 day tour</a></p>
+                <p><a href="#">5 day tour</a></p>
+                <p><a href="#">7 day tour</a></p>
+                <p><a href="#">10 day tour</a></p>
+            </div>
+            <div class="footer-c4">
+                <h3>Contact</h3>
+                <p>p#7 satyana Road Fsd</p>
+                <p><a href="#">raza@gmail.com</a></p>
+                <p>0300-1234567</p>
+                <p>042-1234567</p>
+            </div>
+        </div>
+
+
+        <div class="footer-txt" style="margin: 0px 20px 0px 20px;">
+            <h5> © All rights are reserved by : <span style="font-size: larger;color: #ffa500;">Raza </span> Companies
+            </h5>
+
+        </div>
+
+    </footer>
 
 
 
